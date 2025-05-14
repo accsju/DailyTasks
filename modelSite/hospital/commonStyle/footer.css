@@ -1,0 +1,8 @@
+.global-footer {
+    padding: 15px 10px;
+    background-color: coral;
+}
+.global-footer p {
+    font-size: .7rem;
+    color: white;
+}

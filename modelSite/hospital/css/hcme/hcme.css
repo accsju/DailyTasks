@@ -1,0 +1,172 @@
+.hcme-section {
+    position: relative;
+}
+.hcme-image {    
+    background-color: black;
+    width: 100%;
+    height: 450px;
+}
+.hcme-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;        
+}
+.hcme-container div {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hcme-title {
+    color: white;
+    font-size: 3rem;
+    font-family: "Trirong", serif;
+}
+.intro-text {
+    color: white;
+    font-size: 1rem;
+    font-family: "Trirong", serif;
+}
+@media screen and (max-width: 550px) {
+    .hcme-title {
+        font-size: 2rem;
+        padding: 10px;
+    }
+    .intro-text {
+        font-size: .7rem;
+        padding: 10px;
+    }
+}
+.health-check-section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px 10px 10px;
+}
+.health-check-section h1 {
+    text-align: center;
+    color: #23272F;
+}
+.health-check-section p {
+    text-align: center;
+    color: #23272F;
+    padding: 10px;
+}
+.health-check-section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.health-check-section li {
+    list-style: none;
+    background-color: coral;
+    height: 100px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    color: white;
+    padding: 10px;
+}
+.health-check-section ul a {
+    background-color: mediumseagreen; 
+    height: 100px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    color: white;
+    transition: .3s;
+    text-decoration: none;
+    padding: 10px;
+}
+.health-check-section ul a:hover {
+    background-color: seagreen;
+} 
+.health-check-up-section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px 10px 10px;
+}
+.health-check-up-section h1 {
+    text-align: center;
+    color: #23272F;   
+}
+.health-check-up-section p {
+    text-align: center;
+    color: #23272F; 
+}
+.health-check-up-section h2 {
+    text-align: center;
+    color: #23272F;
+    margin: 30px 0 15px 0;
+}
+.health-check-up-section h3 {
+    text-align: center;
+    color: #23272F;
+}
+.fee-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;                 
+}
+.half-day {
+    border: 3px solid coral;
+    border-radius: 5px;
+}
+.half-day h3 {
+    color: #23272F;
+    padding: 20px 0 50px 0;
+}
+.half-day p {
+    color: #23272F;
+    padding: 0 0 20px 0;
+}
+.one-day {
+    border: 3px solid coral;
+    border-radius: 5px;
+}
+.one-day h3 {
+    padding: 20px 0 50px 0;
+    color: #23272F;
+}
+.one-day p {
+    padding: 0 0 20px 0;
+    color: #23272F;
+}
+.health-check-up-section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.health-check-up-section ul li {
+    list-style: none;
+    background-color: coral;
+    height: 100px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    color: white;
+    padding: 10px;
+}
+.health-check-up-section p {
+    padding: 10px;
+    color: #23272F;
+}
+.reservations-section {
+    max-width: 1000px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reservations-section h1 {
+    text-align: center;
+    color: #23272F;
+}
+.reservations-section p {
+    text-align: center;
+    color: #23272F;
+}
